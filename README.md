@@ -34,5 +34,5 @@ $ git clone [コピーしたURL]
 
 6. パッケージをインストールします.
 ```
-$ yarn install
+$ npm install
 ```
