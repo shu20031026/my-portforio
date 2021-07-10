@@ -20,6 +20,18 @@
     "gatsby": "^3.9.0",
     "gatsby-plugin-emotion": "^6.9.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "twin.macro": "^2.6.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  },
+  "babelMacros": {
+    "twin": {
+      "config": "./tailwind.config.js",
+      "preset": "emotion",
+      "hasSuggestions": true,
+      "debug": false
+    }
   }
 }
