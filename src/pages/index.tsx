@@ -1,13 +1,15 @@
 import React from "react";
 import "twin.macro";
+import { css } from "@emotion/react";
+import MyPageLayout from "../layout/my-page-layout";
 
-const hello = () => {
+const Main = () => {
   return (
     <div>
-      <button tw="px-4 py-2 border-4 border-green-400 border-solid rounded focus:outline-none">
-        tw prop
-      </button>
+      <MyPageLayout tw="h-screen">
+        <div>main</div>
+      </MyPageLayout>
     </div>
   );
 };
-export default hello;
+export default Main;
