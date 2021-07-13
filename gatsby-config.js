@@ -1,7 +1,13 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
     title: "MyPortforio",
+    description: "Gatsbyで作成したポートフォリオサイトです。",
+    author: "Nakashima Shu",
   },
   plugins: [
     "gatsby-plugin-emotion",
@@ -23,6 +29,13 @@ module.exports = {
             options: {
               target: "_self",
               rel: "noopener noreferrer",
+            },
+          },
+          {
+            resolve: `gatsby-source-contentful`,
+            options: {
+              spaceId: process.env.GATSBY_CONTENTFUL_SPACE_ID,
+              accessToken: process.env.GATSBY_CONTENTFUL_API_KEY,
             },
           },
         ],
