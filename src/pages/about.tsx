@@ -1,28 +1,37 @@
-import React from "react";
-import { Link } from "gatsby";
 import "twin.macro";
 import { css } from "@emotion/react";
-import MyPageLayout from "../layout/my-page-layout";
+import { ReactNode } from "react";
+import MyPageLayout from "src/layout/my-page-layout";
 
-const introductionContainer = css``;
+const DummyPic = css`
+  width: 250px;
+  height: 250px;
+  background-color: gray;
+`;
 
-const About = () => {
+const TitleStyle = css``;
+
+const About: ReactNode = () => {
   return (
-    <MyPageLayout tw="h-screen">
-      <div css={introductionContainer}>
-        <div>
-          <h1>About</h1>
+    <MyPageLayout>
+      <div tw="sm:mx-auto sm:w-3/5 w-full">
+        <div tw="justify-center mt-10">
+          <h1 tw=" text-5xl pt-12" css={TitleStyle}>
+            About
+          </h1>
         </div>
-        <div>
+        <div tw="my-20 ml-10">
           <p>
             2019年より北九州高専に在学.
+            <br />
             2020年11月より同校コンピューター研究部に入部しプログラミング学習中.
+            <br />
             2021年現在 県内の企業にてwebエンジニアとしてアルバイトとして活動.
           </p>
         </div>
         <div>
-          <div>
-            <img></img>
+          <div css={DummyPic} tw="ml-24">
+            <img />
           </div>
           <div>
             <h2>中嶋 柊</h2>

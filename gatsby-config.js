@@ -1,3 +1,5 @@
+const path = require("path");
+
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 });
@@ -12,6 +14,12 @@ module.exports = {
   plugins: [
     "gatsby-plugin-emotion",
     `gatsby-plugin-material-ui`,
+    {
+      resolve: "gatsby-plugin-root-import",
+      options: {
+        src: path.join(__dirname, "src"),
+      },
+    },
     {
       resolve: "gatsby-plugin-web-font-loader",
       options: {

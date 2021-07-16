@@ -11,8 +11,11 @@ module.exports = {
           red: "#DC3545",
         },
       },
-      minHeight: {
-        16: "4rem",
+      screens: {
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
       },
     },
   },

@@ -13,6 +13,7 @@
     "skipLibCheck": true,
     "moduleResolution": "node",
     "types": ["@emotion/react"],
-    "jsxImportSource": "@emotion/react"
+    "jsxImportSource": "@emotion/react",
+    "baseUrl": "./",
   }
 }
