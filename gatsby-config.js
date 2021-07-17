@@ -15,6 +15,13 @@ module.exports = {
     "gatsby-plugin-emotion",
     `gatsby-plugin-material-ui`,
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Poiret One`],
+        display: "swap",
+      },
+    },
+    {
       resolve: "gatsby-plugin-root-import",
       options: {
         src: path.join(__dirname, "src"),

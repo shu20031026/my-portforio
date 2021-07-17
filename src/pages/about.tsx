@@ -15,8 +15,8 @@ const About: ReactNode = () => {
   return (
     <MyPageLayout>
       <div tw="sm:mx-auto sm:w-3/5 w-full">
-        <div tw="justify-center mt-10">
-          <h1 tw=" text-5xl pt-12" css={TitleStyle}>
+        <div tw="justify-center">
+          <h1 tw=" text-5xl " css={TitleStyle}>
             About
           </h1>
         </div>

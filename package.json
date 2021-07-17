@@ -25,6 +25,7 @@
     "gatsby": "^3.9.0",
     "gatsby-image": "^3.9.0",
     "gatsby-plugin-emotion": "^6.9.0",
+    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-material-ui": "^3.0.1",
     "gatsby-plugin-typography": "^3.9.0",
     "gatsby-plugin-web-font-loader": "^1.0.4",
