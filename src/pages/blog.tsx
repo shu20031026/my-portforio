@@ -1,7 +1,14 @@
 import React from "react";
+import MyPageLayout from "src/layout/my-page-layout";
 
-const Blog = () => {
-  return <div>blog page</div>;
+const BlogPage: React.VFC = () => {
+  return (
+    <div>
+      <MyPageLayout>
+        <div></div>
+      </MyPageLayout>
+    </div>
+  );
 };
 
-export default Blog;
+export default BlogPage;

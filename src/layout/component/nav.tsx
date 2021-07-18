@@ -19,14 +19,20 @@ const Navigation: React.VFC = () => {
         </li>
         <div tw="h-6 border-l-2 border-black ml-2" />
         <li>
-          <Link to="/blog" tw="text-xl hover:text-gray-300" css={LinkFont}>
-            ・ BLOG
+          <Link to="/works" tw="text-xl hover:text-gray-300" css={LinkFont}>
+            ・ WORKS
           </Link>
         </li>
         <div tw="h-6 border-l-2 border-black ml-2" />
         <li>
-          <Link to="/works" tw="text-xl hover:text-gray-300" css={LinkFont}>
-            ・ WORKS
+          <Link to="/history" tw="text-xl hover:text-gray-300" css={LinkFont}>
+            ・ HISTORY
+          </Link>
+        </li>
+        <div tw="h-6 border-l-2 border-black ml-2" />
+        <li>
+          <Link to="/blog" tw="text-xl hover:text-gray-300" css={LinkFont}>
+            ・ BLOG
           </Link>
         </li>
       </ul>

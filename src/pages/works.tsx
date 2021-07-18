@@ -1,7 +1,14 @@
 import React from "react";
+import MyPageLayout from "src/layout/my-page-layout";
 
-const Works = () => {
-  return <div>works page</div>;
+const WorksPage: React.VFC = () => {
+  return (
+    <div>
+      <MyPageLayout>
+        <div></div>
+      </MyPageLayout>
+    </div>
+  );
 };
 
-export default Works;
+export default WorksPage;

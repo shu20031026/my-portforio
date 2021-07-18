@@ -1,0 +1,72 @@
+[
+    {
+        "name":"HTML/CSS",
+        "datail":"webアプリケーションの作成で使います. Tailwindcssとstyledcomponentがお気に入り.",
+        "star":3
+    },
+    {
+        "name":"JavaScript",
+        "datail":"webアプリケーションの作成で使います.　リファレンスを見ながらなら基本的な操作はできます.",
+        "star":3
+    },
+    {
+        "name":"React",
+        "datail":"一番好きなjavaScriptフレームワークです. アルバイトで用いる程度には使えます.",
+        "star":"3"
+    },
+    {
+        "name":"Redux",
+        "datail":"最近勉強中です.",
+        "star":1
+    },
+    {
+        "name":"TypeScript",
+        "datail":"JavaScriptを使うときは大抵使います. TypeScriptしか勝たん.",
+        "star":3
+    },
+    {
+        "name":"Next.js",
+        "datail":"ハッカソンで使用経験があります. 便利だったけど自前のPCと相性が悪いようであまり使えてないです.",
+        "star":1
+    },
+    {
+        "name":"Gatsby.js",
+        "datail":"このポートフォリオで使いました. 早い. 読み込みがとにかく早い.",
+        "star":2
+    },
+    {
+        "name":"Go",
+        "datail":"ハッカソンでLINEBotに挑戦しました. Atcoderでも使います(最近やってない).",
+        "star":2
+    },
+    {
+        "name":"C/C++",
+        "datail":"学校の授業で基本的な操作は使えるようになりました. 競技プログラミングでも使います.",
+        "star":2
+    },
+    {
+        "name":"Git/Github",
+        "datail":"ハッカソンでのチーム開発や個人でコードの管理に使います。基本的なコマンドは使えます.",
+        "star":2
+    },
+    {
+        "name":"Linux",
+        "datail":"基本的なコマンドは使えます. 普段, 開発ではwslのubuntuを使用しています.",
+        "star":2
+    },
+    {
+        "name":"GraphQL",
+        "datail":"このポートフォリオで使いました. 難しい...",
+        "star":1
+    },
+    {
+        "name":"Netlify",
+        "datail":"デプロイは大抵Netlifyです.",
+        "star":2
+    },
+    {
+        "name":"Docker",
+        "datail":"ハッカソンで少しだけ使用しました.",
+        "star":1
+    }
+]

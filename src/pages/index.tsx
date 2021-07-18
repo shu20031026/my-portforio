@@ -3,7 +3,7 @@ import "twin.macro";
 import { css } from "@emotion/react";
 import MyPageLayout from "../layout/my-page-layout";
 
-const Main = () => {
+const MainPage: React.VFC = () => {
   return (
     <div>
       <MyPageLayout tw="h-screen">
@@ -12,4 +12,4 @@ const Main = () => {
     </div>
   );
 };
-export default Main;
+export default MainPage;

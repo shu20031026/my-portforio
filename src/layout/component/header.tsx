@@ -33,6 +33,7 @@ const Header: React.VFC = () => {
       <div tw="invisible sm:visible">
         <Navigation />
       </div>
+      <img src="images/twitter-icon.jpg" />
     </>
   );
 };

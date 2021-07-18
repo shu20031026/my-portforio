@@ -8,7 +8,7 @@ const LinkFont = css`
   font-family: "Rajdhani", sans-serif;
 `;
 
-const SmNavigation = () => {
+const SmNavigation: React.VFC = () => {
   return (
     <div tw="w-full border-l-4 border-r-4 border-white flex">
       <Link
