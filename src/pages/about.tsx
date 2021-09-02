@@ -55,7 +55,7 @@ const AboutPage: React.VFC = () => {
           </p>
         </div>
         <div tw="xl:flex xl:flex-row">
-          <div css={DummyPic} tw="mx-auto ">
+          <div css={DummyPic} tw="mx-auto">
             <img />
           </div>
 

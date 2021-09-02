@@ -17,10 +17,10 @@ const TextFont = css`
 const Header: React.VFC = () => {
   return (
     <>
-      <div tw="bg-gray-100 w-full fixed mt-0">
+      <div tw="bg-black w-full fixed mt-0">
         <Link
           to="/"
-          tw="pl-8 py-6 text-4xl flex sm:flex-row flex-col"
+          tw="pl-8 py-6 text-4xl text-white flex sm:flex-row flex-col"
           css={TitleFont}
         >
           <p tw="mr-5">Shu</p>

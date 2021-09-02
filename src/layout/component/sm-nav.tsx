@@ -10,7 +10,7 @@ const LinkFont = css`
 
 const SmNavigation: React.VFC = () => {
   return (
-    <div tw="w-full border-l-4 border-r-4 border-white flex">
+    <div tw="w-full border-l-4 border-r-4 border-white flex text-white">
       <Link
         to="/about"
         tw=" py-2 w-1/3 border-t-4 border-r-4  border-white text-center"
